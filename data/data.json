@@ -1,0 +1,35 @@
+{
+	"mobiles":[
+		{
+			"Name":"I phone",
+			"image":"img/images1.jpeg",
+			"originalprice":70000,
+			"price":65000
+
+		},{
+			"Name":"I phone 4",
+			"image":"img/images2.jpeg",
+			"originalprice":50000,
+			"price":48000
+
+		},{
+			"Name":"I phone plus",
+			"image":"img/images3.jpeg",
+			"originalprice":40000,
+			"price":36000
+
+		},{
+			"Name":"I phone 11",
+			"image":"img/images4.jpeg",
+			"originalprice":200000,
+			"price":200000
+
+		},{
+			"Name":"samsung galaxy",
+			"image":"img/images5.jpeg",
+			"originalprice":18000,
+			"price":17000
+
+		}
+	]	
+}
