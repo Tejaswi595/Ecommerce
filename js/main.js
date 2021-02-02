@@ -32,7 +32,7 @@ info.mobiles.map(value=>{
 	 //price
 	 var price=document.createElement("p");
 	 price.classList.add("text-danger","text-center")
-	 price.textContent="originalPrice: ₹"+value.price;
+	 price.textContent="Price: ₹"+value.price;
 	 //original-price
 	 var originalprice=document.createElement("p");
 	 originalprice.classList.add("text-secondary","text-center","text-block")
