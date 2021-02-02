@@ -30,13 +30,13 @@ info.mobiles.map(value=>{
 	 Name.textContent=value.Name;
 	 Name.classList.add("text-center", "text-info")
 	 //price
-	 var originalprice=document.createElement("p");
-	 originalprice.classList.add("text-danger","text-center")
-	 originalprice.textContent="originalPrice: ₹"+value.originalprice;
-	 //original-price
 	 var price=document.createElement("p");
-	 price.classList.add("text-secondary","text-center","text-block")
-	 price.innerHTML="<s> ₹"+value.price+"/-</s>";
+	 price.classList.add("text-danger","text-center")
+	 price.textContent="originalPrice: ₹"+value.price;
+	 //original-price
+	 var originalprice=document.createElement("p");
+	 originalprice.classList.add("text-secondary","text-center","text-block")
+	 originalprice.innerHTML="<s> ₹"+value.originalprice+"/-</s>";
 	 //button
 	 var buttonparent=document.createElement("div");
 	 buttonparent.classList.add("d-grid","gap-2");
@@ -47,8 +47,8 @@ info.mobiles.map(value=>{
 	 buttonparent.append(button)	
 	 cardBody.append(imgElement)
 	 cardBody.append(Name)
-	  cardBody.append(price)
-	 cardBody.append(originalprice)
+	  cardBody.append(originalprice)
+	 cardBody.append(price)
 	 buttonparent.append(button)
 	 cardBody.append(buttonparent)
 
